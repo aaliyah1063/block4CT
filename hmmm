@@ -1,0 +1,6 @@
+ if unique_list[mid] == x :
+        print("You ding dand found it at index position ()" .format (mid))
+        return mid
+    elif unique_list[mid] > x:
+        return recursiveBinarySearch(unnique_list, mid -1, x)
+    else 
